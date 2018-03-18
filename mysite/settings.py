@@ -96,5 +96,6 @@ STATIC_URL = '/static/'
 
 try:
     from .local_settings import *
-except ImportError:
-    print('Error ImportError local_settings')
+except ImportError as err:
+    print('Can\'t find local_settings!', err)
+    exit(1)
