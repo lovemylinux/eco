@@ -4,7 +4,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = 'ptx7a(96526fkdkrmau6h#db@)rwz=ddhqs3qgezbg6+(fb!9i'
 
 # Application definition
 
@@ -91,8 +90,8 @@ STATIC_URL = '/static/'
 # see https://help.pythonanywhere.com/pages/DjangoStaticFiles for more info
 MEDIA_ROOT = u'/home/ecocenter/mysite/media'
 MEDIA_URL = '/media/'
-STATIC_ROOT = u'/home/ecocenter/mysite/static'
-STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'app/static/') #u'/home/ecocenter/mysite/static'
+STATIC_URL = os.path.join(BASE_DIR, 'app/static/')
 
 try:
     from .local_settings import *
