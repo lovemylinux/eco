@@ -1,12 +1,20 @@
 .logo {
     margin: 2%;
-    width: 15%;
-    height: 15%;
+    width: 15%; 
     border-radius: 50%;
 }
 
 h1 {
     margin: 1%;
+    font-family: "Arial";
+    font-weight: 300;
+    color: white;
+}
+
+.main-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 
 .r-image {
@@ -21,4 +29,82 @@ h1 {
     left: 25%;
 }
 
-/*@media (max-width: 1999.98px) { ... }*/
+.path {
+    margin-top: 2%;
+}
+
+.holder {
+    position: relative;
+}
+
+.block {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(255,255,255,0.7);
+    padding: 5px;
+    display: none;
+    border-radius: 50%;
+}
+
+.holder:hover .block {
+    display: block;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*gradient*/
+
+body {
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+/*gradient*/
