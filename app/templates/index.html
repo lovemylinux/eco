@@ -1,37 +1,95 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-        <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
     </head>
     <body>
         <div class="text-center">
-            <img src="roseround.png" class="img-fluid logo" alt="logo">
+            <img src="{% static 'roseround.png' %}" class="logo" alt="logo">
         </div>
-        <div class="text-center">
-            <h1>Eco-центр личностного роста "Новое Я"</h1>
+        <div class="text-center main-text">
+            <h1 class="m-main-text">Eco-центр личностного роста "Новое Я"</h1>
         </div>
         <div class="path">
             <div class="d-inline r-image holder">
-                <img src="roseround.png" class="main-img" alt="">
+                <img src="{% static 'roseround.png' %}" class="main-img" alt="">
                 <div class="block">
-                    <h3 class="centered">Счастлива в теле</h3>
+                    <h3 class="centered m-main-text">Счастлива в теле</h3>
                 </div>
             </div>
             <div class="d-inline l-image holder">
-                <img src="roseround.png" class="main-img" alt="">
+                <img src="{% static 'roseround.png' %}" class="main-img" alt="">
                 <div class="block">
-                    <h3 class="centered">Путешествуй с умом</h3>
+                    <h3 class="centered m-main-text">Путешествуй с умом</h3>
                 </div>
             </div>
         </div>
-        
+        <div class="mob">
+                    <!--Section: Products v.4-->
+            <section class="pb-3 text-center ">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+
+                        <!--Collection card-->
+                        <div class="card collection-card z-depth-1-half">
+                            <!--Card image-->
+                            <div class="view zoom">
+                                <img src="{% static 'roseround.png' %}" class="img-fluid" alt="">
+                                <div class="stripe dark">
+                                    <a>
+                                        <h2 class="font-s">Путешествуй с умом</h2>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--Card image-->
+                        </div>
+                        <!--Collection card-->
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-6 col-sm-6 mb-4">
+
+                        <!--Collection card-->
+                        <div class="card collection-card z-depth-1-half">
+                            <!--Card image-->
+                            <div class="view zoom">
+                                <img src="{% static 'roseround.png' %}" class="img-fluid" alt="">
+                                <div class="stripe light">
+                                    <a>
+                                        <h2 class="font-s">Счастлива в теле</h2>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--Card image-->
+                        </div>
+                        <!--Collection card-->
+
+                    </div>
+                    <!--Grid column-->
+
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: Products v.4-->
+        </div>
+
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
