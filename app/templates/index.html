@@ -11,24 +11,28 @@
     </head>
     <body>
         <div class="text-center">
-            <img src="{% static 'roseround.png' %}" class="logo" alt="logo">
+            <img src="{% static 'logo.jpg' %}" class="logo" alt="logo">
         </div>
         <div class="text-center main-text">
             <h1 class="m-main-text">Eco-центр личностного роста "Новое Я"</h1>
         </div>
         <div class="path">
-            <div class="d-inline r-image holder">
-                <img src="{% static 'roseround.png' %}" class="main-img" alt="">
-                <div class="block">
-                    <h3 class="centered m-main-text">Счастлива в теле</h3>
+            <a href="{% url 'happiness' %}">
+                <div class="d-inline r-image holder">
+                    <img src="{% static 'weist.jpg' %}" class="main-img" alt="">
+                    <div class="block">
+                        <h3 class="centered m-main-text">Счастлива в теле</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="d-inline l-image holder">
-                <img src="{% static 'roseround.png' %}" class="main-img" alt="">
-                <div class="block">
-                    <h3 class="centered m-main-text">Путешествуй с умом</h3>
+            </a>
+            <a href="{% url 'travel' %}">
+                <div class="d-inline l-image holder">
+                    <img src="{% static 'travel-logo.png' %}" class="main-img" alt="">
+                    <div class="block">
+                        <h3 class="centered m-main-text">Путешествуй с умом</h3>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="mob">
                     <!--Section: Products v.4-->
