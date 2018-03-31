@@ -1,15 +1,12 @@
 .logo {
     margin: 2%;
-    width: 15%;
-    border-radius: 50%;
+    width: 10%;
 }
 
 .main-text {
-    margin: 1%;
-    /*font-family: "Arial";*/
-    font-family: "Source Sans Pro";
-    font-weight: 300;
-    color: green;
+    margin: 2%;
+    font-weight: 1000;
+    color: black;
 }
 
 .main-img {
@@ -30,8 +27,9 @@
     left: 25%;
 }
 
+
 .path {
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 .holder {
@@ -70,7 +68,7 @@
 
 .font-s {
     font-size: 22px;
-    color: green;
+    color: black;
     margin-top: 10px;
 }
 
@@ -101,38 +99,30 @@
     font-size: 2em;
 }
 
-img {
-    display: inline-block;
+.img-border {
     max-width: 98%;
     height: auto;
-    width: 65%;
+    width: 55%;
     border-radius: 50%;
 }
 
-.m-r-image {
-    float: right;
-    position: relative;
-    right: 9%;
-}
-
-.m-l-image {
-    float: left;
-    position: relative;
-    left: 9%;
-}
 
 }
 
-/*gradient
+/*gradient*/
 
 body {
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(135deg, #23D5AB, #F5FFFA, #90EE90);
 	background-size: 400% 400%;
+	font-family: "Source Sans Pro";
+/*
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+*/
 }
 
+/*
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%

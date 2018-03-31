@@ -33,6 +33,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+  font-size: 15vw !important;
 }
 
 .text-faded {
@@ -87,13 +88,14 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: #778899;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .masthead h1 {
+  color: white;    
   font-size: 4rem;
   margin: 0;
   padding: 0;
@@ -108,7 +110,7 @@ h6 {
   }
 }
 
-/* Side Menu */
+/* Side Menu*/
 #sidebar-wrapper {
   position: fixed;
   z-index: 2;
@@ -121,10 +123,9 @@ h6 {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #1d9f4c;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 .sidebar-nav {
   position: absolute;
   top: 0;
@@ -324,14 +325,14 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #1d9f4c !important;
+  border-color: #1d9f4c !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #18813e !important;
+  border-color: #18813e !important;
 }
 
 .btn-secondary {
