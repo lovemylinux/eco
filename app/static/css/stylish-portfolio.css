@@ -33,7 +33,6 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-size: 15vw !important;
 }
 
 .text-faded {
@@ -365,4 +364,18 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+/*responsive*/
+
+@media screen and (max-width:600px){
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 700;
+      font-size: 10vw !important;
+    }
 }
