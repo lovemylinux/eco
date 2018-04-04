@@ -6,7 +6,7 @@
 .main-text {
     margin: 2%;
     font-weight: 1000;
-    color: black;
+    color: #009612;
 }
 
 .main-img {
@@ -68,7 +68,7 @@
 
 .font-s {
     font-size: 22px;
-    color: black;
+    color: #009612;
     margin-top: 10px;
 }
 
@@ -76,10 +76,17 @@
     visibility: hidden;
 }
 
+.under-main {
+    margin-right: 20%;
+}
 
 /*<=1050px*/
 
 @media screen and (max-width:1050px){
+
+.under-main {
+    margin-right: 20%;
+}
 
 .m-main-text {
     font-size: 22px;
@@ -116,12 +123,21 @@
 
 }
 
+@media screen and (max-width:800px){
+
+.under-main {
+    margin-right:10%;
+}
+
+}
+
 /*gradient*/
 
 body {
-	background: linear-gradient(135deg, #23D5AB, #F5FFFA, #90EE90);
+	/*background: linear-gradient(135deg, #23D5AB, #F5FFFA, #90EE90);*/
 	background-size: 400% 400%;
 	font-family: "Source Sans Pro";
+	color: #009612;
 /*
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
