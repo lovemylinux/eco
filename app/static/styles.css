@@ -1,6 +1,6 @@
 .logo {
     margin: 2%;
-    width: 10%;
+    width: 20%;
 }
 
 .main-text {
@@ -84,6 +84,11 @@
 
 @media screen and (max-width:1050px){
 
+.logo {
+    margin: 2%;
+    width: 10%;
+}
+
 .under-main {
     margin-right: 20%;
 }
@@ -124,6 +129,11 @@
 }
 
 @media screen and (max-width:800px){
+
+.logo {
+    margin: 2%;
+    width: 40%;
+}
 
 .under-main {
     margin-right:10%;
